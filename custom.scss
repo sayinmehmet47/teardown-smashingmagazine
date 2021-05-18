@@ -1,0 +1,46 @@
+
+
+$primary:#d33a2c;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+
+
+li{
+    list-style: none;
+    margin-left: 5px;
+}
+
+.first-nav li:hover{
+  
+    background-color: #a82e23;
+    border: 1px solid #a82e23; 
+    border-radius: 5px;
+}
+
+.second-nav li{
+    background-color:#ffe7e7;
+    padding:5px 25px;
+    border-radius: 5px;
+    color:#d33a2c
+}
+
+.second-nav li:hover{
+
+    border: 1px solid #d33a2c;
+    -webkit-transition: border 1000ms linear;
+    -ms-transition: border 1000ms linear;
+    transition: border 1000ms linear;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&family=Roboto:wght@100&display=swap');
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
